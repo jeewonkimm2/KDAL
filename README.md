@@ -52,7 +52,7 @@ This study utilizes a mixture of normal and abnormal data (Unlabeled Dataset) to
 - Installing all the requirements may take some time. After installation, you can run the codes.
 - Please notice that we used 'PyTorch' and device type as 'GPU'.
 - We utilized 2 GPUs in our implementation. If the number of GPUs differs, please adjust the code accordingly based on the specific situation.
-- ```requirements.txt``` file is required to set up the virtual environment for running the program. This file contains a list of all the libraries needed to run your program and their versions.
+- [```requirements.txt```](https://github.com/jeewonkimm2/KDAL/blob/main/requirements.txt) file is required to set up the virtual environment for running the program. This file contains a list of all the libraries needed to run your program and their versions.
 
     #### In **Anaconda** Environment,
 
@@ -65,5 +65,23 @@ This study utilizes a mixture of normal and abnormal data (Unlabeled Dataset) to
   ```
 
   - Create your own virtual environment.
-  - Activate your Anaconda virtual environment where you want to install the package. If your virtual environment is named 'testasal', you can type **conda activate testasal**.
+  - Activate your Anaconda virtual environment where you want to install the package. If your virtual environment is named 'testkdal', you can type **conda activate testkdal**.
   - Use the command **pip install -r requirements.txt** to install libraries.
+
+ ## 3. Dataset
+ 1. [KDD Cup 1999](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99)
+ 2. [Arrhythmia](https://archive.ics.uci.edu/dataset/5/arrhythmia)
+ 3. [Thyroid Disease](https://archive.ics.uci.edu/dataset/102/thyroid+disease)
+ - Merging the Train and Test sets of the existing data, the combined dataset was then divided into Train and Test sets in a ratio of 0.8:0.2.
+ - You need to create a folder, `./datasets`
+
+  ```bash
+  ├── datasets
+  │   ├── dataset1
+  │   ├── dataset2
+  │   │
+  │   │    ...
+  │   │
+  │   │
+  │   ├── dataset3
+```
