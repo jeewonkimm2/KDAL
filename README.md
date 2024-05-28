@@ -4,7 +4,7 @@
 - Associated with [Industrial Artificial Intelligence Lab](https://iai.seoultech.ac.kr/index.do)
 
 #### 📍 Project Objective
-
+This study utilizes a mixture of normal and abnormal data (Unlabeled Dataset) to reflect the real data distribution in the Active Learning methodology. Anomaly Scores derived from Unsupervised Anomaly Detection(UAD) are used to compose the initial data pool of Active Learning with samples rich in information. Through this, the model quickly grasps various patterns of the data in the initial learning stage and achieves high performance in the early learning stage, thus saving labeling costs.
 
 #### 📍 Project Duration
 2023.11 ~ 2024.05
