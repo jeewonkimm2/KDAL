@@ -1,6 +1,6 @@
 # KDAL
 - Knowledge Distillation-based Active Learning for Anomaly Detection
-- [The 2024 Spring Joint Conference of the Korean Institute of Industrial Engineers](https://kiie.org/Conference/ConferenceView.asp?AC=0&CODE=CC20240101&CpPage=248#CONF)
+- [The 2024 Spring Joint Conference of the Korean Institute of Industrial Engineers](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11800857)
 - Associated with [Industrial Artificial Intelligence Lab](https://iai.seoultech.ac.kr/index.do)
 
 #### 📍 Project Objective
